@@ -1,0 +1,125 @@
+
+
+
+
+
+.pagina{
+    background-image: url(imagenespagina/Grupo2.png);
+     width: 1920px;height: 334px; 
+     margin: 0;
+      padding: 0;
+}
+
+
+.menu{position: fixed; top: 0px;
+    background-image: url(imagenespagina/fondogenerico.png) ; 
+    width:1920px ; height:50px ;margin: 0; padding: 0;
+}
+.acerca_de_mi{ 
+    background-image: url(imagenespagina/Grupo3.png); width: 1920px;height: 442px;margin: 0; padding: 0;
+}
+.Blog{
+    background-image: url(imagenespagina/Grupo4.png);width: 1920px;height: 2810px;margin: 0; padding: 0;
+}
+.galeria{
+    background-image: url(imagenespagina/Galeria.png);width: 1920px;height: 3160px;
+}
+
+.redes{
+    background-image: url(imagenespagina/redesociales.png);
+width: 1920px;height: 3160px;
+}
+
+
+/* tu sabe*/
+.tusabeboca{
+    background-image: url(imagenespagina/boca1.png);width: 244; height: 267;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: animacao 4s infinite; 
+}
+
+.tusabeboca2{
+    background-image: url(imagenespagina/boca2.png);width: 244; height: 267;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: animazion 4s infinite; 
+   
+}
+
+.nubegood{
+    background-image: url(imagenespagina/nubeanimacion.png);width: 244; height: 267;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: animacion 5s infinite; 
+}
+.nubegood2{
+    background-image: url(imagenespagina/nubeanimacion2.png);width: 244; height: 267;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: animacionn 3s infinite; 
+}
+
+.logoinsta{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*animacion tu sabe*/
+@keyframes animacao{
+    0%{ -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);}
+
+    50%{-webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 40deg);}
+
+    50%{-webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, -60deg);}
+
+}
+
+@keyframes animazion{
+    0%{ -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);}
+
+    50%{-webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, -40deg);}
+
+    50%{-webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 60deg);}
+
+}
+
+/*animacion nubes*/
+
+@keyframes animacion {
+    0% {
+        transform: translateX(-20%); /* Empieza a la derecha del contenedor */
+    }
+    50% {
+        transform: translateX(3%); /* Se mueve a la izquierda del contenedor */
+    }
+    100% {
+        transform: translateX(-50%); /* Regresa a la posición inicial */
+    }
+}
+   
+   
+  
+  @keyframes animacionn {
+    0% {
+        transform: translateX(20%); /* Empieza a la derecha del contenedor */
+    }
+    50% {
+        transform: translateX(-3%); /* Se mueve a la izquierda del contenedor */
+    }
+    100% {
+        transform: translateX(20%); /* Regresa a la posición inicial */
+    }
+}
